@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<bouteilleEau>
+    <eau source="St-Cyr">
+        <marque>Cristaline</marque>
+        <volume par="cl">150</volume>
+        <codeBarre>3274080005003</codeBarre>
+        <ph>7.45</ph>
+        <ions type="positifs">
+            <calcium unite="mg/l">71</calcium>
+            <magnésium unite="mg/l">5.5</magnésium>
+        </ions>
+        <ions type="negatifs">
+            <chlorures unite="mg/l">20</chlorures>
+            <nitrates unite="mg/l">1</nitrates>
+        </ions>
+    </eau>
+    <eau source="Aurèle">
+        <marque>Cristaline</marque>
+        <volume par="cl">50</volume>
+        <codeBarre>3268840001008</codeBarre>
+        <ph>7.4</ph>
+        <ions type="positifs">
+            <calcium unite="mg/l">98</calcium>
+            <magnésium unite="mg/l">4</magnésium>
+        </ions>
+        <ions type="negatifs">
+            <chlorures unite="mg/l">3.6</chlorures>
+            <nitrates unite="mg/l">2</nitrates>
+        </ions>
+    </eau>
+    <eau source="Volvic">
+        <marque>Volvic</marque>
+        <volume par="cl">50</volume>
+        <codeBarre>3057640117008</codeBarre>
+        <ph>7</ph>
+        <ions type="positifs">
+            <calcium unite="mg/l">11.5</calcium>
+            <magnésium unite="mg/l">8</magnésium>
+        </ions>
+        <ions type="negatifs">
+            <chlorures unite="mg/l">13.5</chlorures>
+            <nitrates unite="mg/l">6.3</nitrates>
+        </ions>
+    </eau>
+</bouteilleEau>
