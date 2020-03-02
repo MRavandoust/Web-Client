@@ -15,7 +15,7 @@ header{
 
 section {
     direction: ltr;
-    float:inline-end;
+    float:initial;
     background-color:rgb(228, 224, 224); 
     height: 600px; 
     width: 75%;
@@ -28,7 +28,6 @@ aside {
     height: 600px; 
     width: 25%;  
     float: left;
-    margin-left: 3px;
 
 }
 
