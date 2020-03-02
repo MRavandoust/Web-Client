@@ -1,38 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mon Site</title>
+    <link rel="stylesheet" type="text/css" href="feuille.css" media="screen" />
 </head>
-<body style="margin: auto;">
-    <header style="background-color: cornflowerblue; height: 110px; "><h1 style="text-align: center; padding-top: 40px; ">Mon Site</h1></header>
-    <div style="width: 80%; margin: auto; ">
-        
-        <div style="background-color: blueviolet; height: 600px; width: 25%; float: left; ">
-            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; font-size:30px ; font-weight: 500; text-align: center; ">C'est la sidbare de mon site</p>
-           <ol>
-               <li>Première</li>
-               <li>deuxième</li>
-               <li>troisième</li>
-               <li>quatrième</li>
-           </ol>
+<body>
+    <header>
+        <h1>Mon Site</h1>
+    </header>
+    <div id="content">
+        <aside>
+            <p>C'est la sidebare de mon site</p>
+            <ol>
+                <li>Première</li>
+                <li>deuxième</li>
+                <li>troisième</li>
+                <li>quatrième</li>
+            </ol>
 
-           <dl>
-            <dt>Ma Liste</dt>
-               <dd>» Première</dd>
-               <dd>» deuxième</dd>
-               <dd>» troisième</dd>
-           </dl>
+            <blockquote>élément <span style="color: rgb(163, 17, 17)"> sémantique</span> qui <strong>marque du texte
+                    comme </strong> comme
+                fortement mis en <em>valeur élément</em> sémantique qui marque du texte comme comme fortement mis en
+                valeur élément
+                sémantique qui <a href="https://translate.google.fr/" target="_blank">du texte</a> comme comme
+                fortement mis en valeur E=mc<sup>2</sup> après H<sub>2</sub>O</blockquote>
 
-        </div>
-        <div style="background-color: coral; height: 600px; width: 75%; float: left;">
-            <p style="font-family:'Courier New', Courier, monospace ; font-size:30px ; font-weight: 1000; text-align: center; ">C'est la partie de contenu de mon site</p>
 
-        </div>
+        </aside>
+
+        <section>
+            <a href="https://www.arfp.asso.fr/" target="_blank"><img src="images/crm.png"></a>
+            <p>C'est la partie de contenu de mon site</p>
+            <div id="liste">
+
+                <ul type="square">
+                    <li>
+                        <h2><a href="page.html">Lien intern</a></h2>
+                    </li>
+                    <li>
+                        <h2><a href="page2/page.html">Lien intern (dossier différent)</a></h2>
+                    </li>
+                    <li>
+                        <h2><a href="#">Lien vers la même</a></h2>
+                    </li>
+                    <li>
+                        <h2><a href="mailto:monmail@gmail.com" target="_blank">Lien vers un email</a></h2>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+           
+        </section>
     </div>
-    
+    <footer>
+        <h1>Footer of My site</h1>
+    </footer>
 </body>
 
 </html>
