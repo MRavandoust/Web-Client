@@ -23,19 +23,11 @@ header {
 }
 
 section {
-<<<<<<< HEAD
-    direction: ltr;
-    float:initial;
-    background-color:rgb(228, 224, 224); 
-    height: 600px; 
-    width: 75%;
-=======
     display: table;
     background-color: rgb(228, 224, 224);
     min-height: 800px;
     width: 73%;
     float: left;
->>>>>>> 3dfcfacfe8cbcd09528c22cdc017b91d1d18cc77
 }
 
 section a {
@@ -60,11 +52,7 @@ aside {
     min-height: 800px;
     width: 25%;
     float: left;
-<<<<<<< HEAD
-
-=======
     margin-left: 3px;
->>>>>>> 3dfcfacfe8cbcd09528c22cdc017b91d1d18cc77
 }
 
 footer {
