@@ -12,6 +12,25 @@
 <body>
     <header>
         <h1>Mon Site</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Menu1</a>
+                </li>
+                <li>
+                    <a href="#">Menu2</a>
+                </li>
+                <li>
+                    <a href="#">Menu3</a>
+                </li>
+                <li>
+                    <a href="#">Menu4</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <div id="content">
         <aside>
@@ -24,37 +43,52 @@
             </ol>
 
             <blockquote>élément <span style="color: rgb(163, 17, 17)"> sémantique</span> qui <strong>marque du texte
-                    comme </strong> comme
-                fortement mis en <em>valeur élément</em> sémantique qui marque du texte comme comme fortement mis en
-                valeur élément
-                sémantique qui <a href="https://translate.google.fr/" target="_blank">du texte</a> comme comme
+                    comme </strong> comme fortement mis en <em>valeur élément</em> sémantique qui marque du texte comme comme fortement mis en valeur élément sémantique qui <a href="https://translate.google.fr/" target="_blank">du texte</a> comme comme
                 fortement mis en valeur E=mc<sup>2</sup> après H<sub>2</sub>O</blockquote>
 
 
         </aside>
 
         <section>
-            <a href="https://www.arfp.asso.fr/" target="_blank"><img src="images/crm.png"></a>
-            <p>C'est la partie de contenu de mon site</p>
-            <div id="liste">
+            <div class="box">
+                <p>C'est la partie de contenu de mon site</p>
+                <a href="https://www.arfp.asso.fr/" target="_blank"><img src="images/crm.png"></a>
 
-                <ul type="square">
-                    <li>
-                        <h2><a href="page.html">Lien intern</a></h2>
-                    </li>
-                    <li>
-                        <h2><a href="page2/page.html">Lien intern (dossier différent)</a></h2>
-                    </li>
-                    <li>
-                        <h2><a href="#">Lien vers la même</a></h2>
-                    </li>
-                    <li>
-                        <h2><a href="mailto:monmail@gmail.com" target="_blank">Lien vers un email</a></h2>
-                    </li>
-                </ul>
-                <hr>
+                <div id="liste">
+                    <ul type="square">
+                        <li>
+                            <h2><a href="page.html">Lien interne</a></h2>
+                        </li>
+                        <li>
+                            <h2><a href="page2/page.html">Lien interne (dossier différent)</a></h2>
+                        </li>
+                        <li>
+                            <h2><a href="#">Lien vers la même</a></h2>
+                        </li>
+                        <li>
+                            <h2><a href="mailto:monmail@gmail.com" target="_blank">Lien vers un email</a></h2>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
             </div>
-           
+
+
+            <div class="box">
+                <table>
+                    <caption>Colonnes - Années</caption>
+                    <tr>
+                        <th>Première colonne</th>
+                        <th>Deuxième colonne</th>
+                        <th>Troisième colonne</th>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>2020</td>
+                        <td>2021</td>
+                    </tr>
+                </table>
+            </div>
         </section>
     </div>
     <footer>
