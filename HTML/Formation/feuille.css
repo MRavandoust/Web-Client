@@ -4,59 +4,86 @@ body {
     margin: auto;
     padding: 0px;
     height: 100%;
-
 }
 
-header{
-    background-color: rgb(163, 219, 245); 
-    height: 130px;  
-
-}
-
-section {
-    direction: ltr;
-    float:initial;
-    background-color:rgb(228, 224, 224); 
-    height: 600px; 
-    width: 75%;
-}
-
-
-aside {
-    direction: ltr;
-    background-color:rgb(177, 241, 211); 
-    height: 600px; 
-    width: 25%;  
+header {
     float: left;
-
-}
-
-footer {
+    width: 100%;
     background-color: rgb(163, 219, 245);
     height: 130px;
 }
 
-h1{
-    text-align: center; 
-    padding-top: 30px;
-}
-
-#content{
-    direction: rtl;
+#content {
     height: 100%;
     width: 80%;
     margin: auto;
     margin-top: -29px;
     margin-bottom: -21px;
-    box-shadow:8px 8px 20px 3px rgb(177, 199, 209);
+    box-shadow: 8px 8px 20px 3px rgb(177, 199, 209);
 }
 
+section {
+<<<<<<< HEAD
+    direction: ltr;
+    float:initial;
+    background-color:rgb(228, 224, 224); 
+    height: 600px; 
+    width: 75%;
+=======
+    display: table;
+    background-color: rgb(228, 224, 224);
+    min-height: 800px;
+    width: 73%;
+    float: left;
+>>>>>>> 3dfcfacfe8cbcd09528c22cdc017b91d1d18cc77
+}
 
-p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
-    font-size:30px ; 
-    font-weight: 500; 
-    text-align: center; 
+section a {
+    color: darkblue;
+    text-decoration: none;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section a:hover {
+    color: rgb(8, 92, 43);
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.5s;
+    transform: rotate(5deg);
+    text-shadow: 3px 2px rgb(243, 245, 248);
+}
+
+aside {
+    background-color: rgb(177, 241, 211);
+    min-height: 800px;
+    width: 25%;
+    float: left;
+<<<<<<< HEAD
+
+=======
+    margin-left: 3px;
+>>>>>>> 3dfcfacfe8cbcd09528c22cdc017b91d1d18cc77
+}
+
+footer {
+    background-color: rgb(163, 219, 245);
+    height: 130px;
+    float: left;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
 }
 
 img {
@@ -64,8 +91,8 @@ img {
     margin: 25px;
     width: 200px;
     height: 180px;
-    transition:0.5s;
-    box-shadow:8px 8px 20px 3px rgb(177, 199, 209);
+    transition: 0.5s;
+    box-shadow: 8px 8px 20px 3px rgb(177, 199, 209);
 }
 
 img:hover {
@@ -73,19 +100,67 @@ img:hover {
     margin: 10px;
     width: 230px;
     height: 210px;
-    transition:0.5s;
-    transform:rotate(10deg);
+    transition: 0.5s;
+    transform: rotate(5deg);
 }
 
-#liste{
-    direction: ltr;
+#liste {
     float: left;
-    width: 800px;
-    height: 550px;
     margin-left: 50px;
 }
 
-hr{
-    float: left;
+hr {
     width: 100%;
+    float: left;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    background-color: rgb(163, 219, 245);
+    display: inline-block;
+    padding: px;
+    list-style: none;
+}
+
+nav ul li a {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 20px 5px 20px;
+    color: rgb(11, 100, 33);
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    background-color: rgb(163, 219, 245);
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    transition: 0.3s;
+    box-shadow: 1px 4px 15px 1px #555;
+}
+
+.box {
+    display: table-row;
+}
+
+table {
+    background-color: bisque;
+    text-align: center;
+    margin: auto;
+}
+
+table td {
+    background-color: rgb(243, 211, 170);
+    padding: 6px 15px;
+}
+
+table th {
+    background-color: rgb(236, 201, 156);
+    padding: 6px 15px;
 }
