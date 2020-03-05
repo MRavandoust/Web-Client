@@ -131,7 +131,7 @@ section {
 
 article {
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     overflow: auto;
     display: table;
 }
@@ -161,8 +161,19 @@ table img {
 
 .image img {
     height: 215;
-    margin-left: 160%;
+    /* margin-left: 160%;  */
     border-radius: 10px;
+}
+
+#bar {
+    float: left;
+    overflow: auto;
+    width: 100%;
+    background-color: #efefef;
+    margin: auto;
+    padding-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 .article1 {
@@ -173,7 +184,7 @@ table img {
     padding-right: 10px;
     float: left;
     position: absolute;
-    margin-left: 582px;
+    /*margin-left: 582px; */
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
