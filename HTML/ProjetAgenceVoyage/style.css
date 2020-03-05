@@ -61,7 +61,6 @@ section {
 
 #banner {
     position: relative;
-    margin-bottom: 80px:
 }
 
 #banner img {
@@ -133,7 +132,6 @@ section {
 article {
     margin: auto;
     margin-bottom: 100px;
-    margin-top: 50px;
     overflow: auto;
     display: table;
 }
@@ -158,28 +156,31 @@ table img {
     display: inline-table;
     width: 365px;
     position: relative;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .image img {
-    border-radius: 10px;
     height: 215;
+    margin-left: 160%;
+    border-radius: 10px;
 }
 
 .article1 {
-    width: 50%;
+    width: 40%;
     height: 215px;
     background-color: white;
     text-align: center;
-    margin-top: 0px;
     padding-right: 10px;
     float: left;
     position: absolute;
+    margin-left: 582px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .article1 p {
-    width: 170px;
-    padding-left: 20px;
+    width: 140px;
+    padding-left: 10px;
     font-size: 12px;
     color: rgb(83, 97, 97);
     line-height: 20px;
@@ -188,6 +189,10 @@ table img {
 .article1 a {
     text-decoration: none;
     width: 50px;
+}
+
+.article1 h2 {
+    font-size: 18px;
 }
 
 .button {
