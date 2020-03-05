@@ -49,7 +49,7 @@ section a:hover {
 
 aside {
     background-color: rgb(177, 241, 211);
-    min-height: 800px;
+    min-height: 1401px;
     width: 25%;
     float: left;
     margin-left: 3px;
@@ -155,13 +155,15 @@ table th {
 
 form {
     background-color: lightblue;
-    margin: auto;
-    width: 40%;
+    margin-left: 30%;
+    width: 38%;
     float: inline-start;
     border-radius: 10px;
     padding: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
+    font-size: 15px;
+    float: left;
 }
 
 form label,
@@ -170,6 +172,28 @@ input {
 }
 
 form p {
-    font-size: 16px;
+    font-size: 14px;
+    text-align: left;
     float: left;
+}
+
+form h5 {
+    float: left;
+    width: 120px;
+}
+
+form textarea {
+    float: left;
+    margin-top: 15px;
+    width: 97%;
+    min-height: 100px;
+}
+
+form button {
+    transition: 0.3s;
+}
+
+form button:hover {
+    box-shadow: 3px 3px 10px 2px rgb(104, 123, 131);
+    transition: 0.3s;
 }

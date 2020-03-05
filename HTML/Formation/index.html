@@ -46,6 +46,70 @@
                     comme </strong> comme fortement mis en <em>valeur élément</em> sémantique qui marque du texte comme comme fortement mis en valeur élément sémantique qui <a href="https://translate.google.fr/" target="_blank">du texte</a> comme comme
                 fortement mis en valeur E=mc<sup>2</sup> après H<sub>2</sub>O</blockquote>
 
+            <p>Ma liste</p>
+            <ul type="circle">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Menu1</a>
+                </li>
+                <li>
+                    <ol>
+                        <li>Première</li>
+                        <li>deuxième</li>
+                        <li>troisième</li>
+                        <li>quatrième</li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#">Menu3</a>
+                </li>
+                <li>
+                    <a href="#">Menu4</a>
+                </li>
+                <li>
+                    <ul type="square">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Menu1</a>
+                        </li>
+                        <li>
+                            <ol>
+                                <li>Première</li>
+                                <li>deuxième</li>
+                                <li>troisième</li>
+                                <li>quatrième</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a href="#">Menu3</a>
+                        </li>
+                        <li>
+                            <a href="#">Menu4</a>
+                        </li>
+                        <li>
+                            <a href="#">Menu3</a>
+                        </li>
+                        <li>
+                            <a href="#">Menu4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Menu4</a>
+                </li>
+            </ul>
+            </br>
+
+            <p>Ma Video</p>
+            <p>
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/HroWnXmx1pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+
+
 
         </aside>
 
@@ -125,52 +189,58 @@
 
             <div class="box">
                 <form method="post" action="traitement.php">
-                    <label form="nom">Nom</label></br>
+                    <h2>Formulaire Type</h2>
+                    <h3>Coordonnees</h3>
+                    <label for="nom">Nom</label></br>
                     <input type="text" id="nom" name="nom"></br>
                     </br>
-                    <label form="prenom">Prenom</label></br>
+                    <label for="prenom">Prenom</label></br>
                     <input type="text" id="prenom" name="prenom"></br>
                     </br>
-                    <label form="documentation">Je désire recevoire une documentation</label>
+                    <label for="documentation">Je désire recevoire une documentation</label>
                     <input type="checkbox" id="documentation" name="documentation"></br>
                     </br>
-                    <label form="pays">Prenom</label>
+                    <label for="pays">Pays</label>
                     <select name="pays" id="pays">
-                        <option value="france">€: France</option>
-                        <option value="espagne">€: Espagne</option>
-                        <option value="royaume-uni">£: Royaume-uni</option>
+                        <option value="france">Fr: France</option>
+                        <option value="espagne">Es: Espagne</option>
+                        <option value="royaume-uni">GB: Royaume-uni</option>
                         <option value="suisse">CH: suisse</option>
                     </select></br>
                     </br>
                     <p>Sexe</p>
+                    <p>
+                        <input type="radio" name="sexe" value="masculin" id="masculin" checked="checked">
+                        <label for="masculin">Masculin</label>
+                        <input type="radio" name="sexe" value="feminin" id="feminin">
+                        <label for="feminin">Féminin</label>
+                    </p>
                     </br>
-                    <input type="radio" name="sexe" value="masculin" id="masculin" checked="checked">
-                    <label form="masculin">Masculin</label>
-                    <input type="radio" name="sexe" value="feminin" id="feminin">
-                    <label form="feminin">Féminin</label>
-
                     </br>
-                    </br>
-                    <h3>Domaine(s) d'activite</h3>
-                    </br>
+                    <h4>Domaine(s) d'activite</h4>
                     <p>Vous pouvez en choisir plus qu'un...</p>
+                    <p>
+                        <input type="checkbox" id="pedagogie" name="pedagogie">
+                        <label for="pedagogie">Pedagogie</label>
+                        <input type="checkbox" id="pcychologie" name="pcychologie">
+                        <label for="pcychologie">Pcychologie</label>
+                        <input type="checkbox" id="informatique" name="informatique">
+                        <label for="informatique">Informatique</label>
+                        <input type="checkbox" id="autre" name="autre">
+                        <label for="autre">Autre</label></br>
+                    </p>
                     </br>
                     </br>
-                    <input type="checkbox" id="pedagogie" name="pedagogie">
-                    <label form="pedagogie">Pedagogie</label>
-                    <input type="checkbox" id="pcychologie" name="pcychologie">
-                    <label form="pcychologie">Pcychologie</label>
-                    <input type="checkbox" id="informatique" name="informatique">
-                    <label form="informatique">Informatique</label>
-                    <input type="checkbox" id="autre" name="autre">
-                    <label form="autre">Autre</label></br>
-                    </br>
-                    <h4>Commentaire</h4>
+                    <h5>Commentaire</h5>
                     </br>
                     </br>
                     <label form="montext">Si vous le voulez, vous pouvez decrire vos activites ou interets</label></br>
                     </br>
                     <textarea name="montext" id="montext"></textarea>
+                    <p>
+                        <button type="reset">Effacer les données</button>
+                        <button type="submit">Enregistrer les données</button>
+                    </p>
                 </form>
             </div>
         </section>
