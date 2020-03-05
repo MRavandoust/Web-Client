@@ -156,21 +156,23 @@ table img {
 
 .image {
     display: inline-table;
-    width: 370px;
+    width: 365px;
     position: relative;
+    margin-left: 10px;
 }
 
 .image img {
     border-radius: 10px;
+    height: 215;
 }
 
 .article1 {
     width: 50%;
-    height: 260px;
+    height: 215px;
     background-color: white;
     text-align: center;
-    margin-top: -20px;
-    padding-top: 20px;
+    margin-top: 0px;
+    padding-right: 10px;
     float: left;
     position: absolute;
 }
