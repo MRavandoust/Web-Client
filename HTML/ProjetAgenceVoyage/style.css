@@ -177,14 +177,13 @@ table img {
 }
 
 .article1 {
-    width: 40%;
+    width: 41%;
     height: 215px;
     background-color: white;
     text-align: center;
     padding-right: 10px;
     float: left;
     position: absolute;
-    /*margin-left: 582px; */
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -216,27 +215,6 @@ table img {
     color: white;
     margin: auto;
     clear: both;
-}
-
-footer {
-    background-color: rgb(53, 59, 61);
-    height: 200px;
-    float: left;
-    width: 100%;
-}
-
-footer h1 {
-    text-align: center;
-    padding-top: 30px;
-    font-family: 'Crete Round';
-    font-size: 40px;
-    color: white;
-}
-
-footer p {
-    color: white;
-    text-align: center;
-    font-size: 12px;
 }
 
 img {
@@ -285,4 +263,25 @@ form button {
 
 form input {
     height: 22px;
+}
+
+footer {
+    background-color: rgb(53, 59, 61);
+    height: 200px;
+    float: left;
+    width: 100%;
+}
+
+footer h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Crete Round';
+    font-size: 40px;
+    color: white;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
 }
