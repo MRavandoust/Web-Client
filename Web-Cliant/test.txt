@@ -1,8 +1,0 @@
-<? xml version="1.0" 
-
-
-Bonjour
-encore
-Bonjour 2 
-c'est un fichier HTML 
-Masoud
