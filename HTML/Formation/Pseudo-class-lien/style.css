@@ -6,7 +6,7 @@ section {
 ul {}
 
 ul li {
-    width: 85px;
+    width: 115px;
     height: 22px;
     background-color: blueviolet;
     padding: 10px 20px;
@@ -18,20 +18,20 @@ ul li {
 }
 
 ul li:hover {
-    width: 100px;
+    width: 140px;
     height: 28px;
     background-color: blueviolet;
-    padding: 15px 20px;
+    padding: 15px 15px;
     list-style: none;
-    font-size: 22px;
-    margin: auto;
+    font-size: 20px;
     margin-top: 15px;
-    border-radius: 20px;
+    border-radius: 60px;
     transition: 0.5s;
     text-shadow: 10px;
 }
 
 ul li a {
+    margin: auto;
     color: white;
     text-decoration: none;
 }
