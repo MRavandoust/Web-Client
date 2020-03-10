@@ -1,0 +1,120 @@
+section {
+    background-color: burlywood;
+    padding: 20px 0;
+}
+
+ul {}
+
+ul li {
+    width: 85px;
+    height: 22px;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    list-style: none;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+ul li:hover {
+    width: 100px;
+    height: 28px;
+    background-color: blueviolet;
+    padding: 15px 20px;
+    list-style: none;
+    font-size: 22px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+    text-shadow: 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#parag {
+    margin: auto;
+    font-size: 28px;
+    color: red;
+    width: fit-content;
+    display: none;
+}
+
+#parag img {
+    width: 70px;
+}
+
+#parag1 {
+    margin: auto;
+    font-size: 28px;
+    color: rgb(238, 255, 0);
+    width: fit-content;
+    display: none;
+}
+
+#parag1 img {
+    width: 100px;
+}
+
+.listes {
+    margin: auto;
+    width: 10%;
+}
+
+.listes a {
+    padding: 10px;
+    text-decoration: none;
+    line-height: 55px;
+    margin-left: 30px;
+    color: white;
+    background-color: rgb(148, 17, 17);
+}
+
+.listes a:link {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.listes a:hover {
+    color: blue;
+    padding-left: 40px;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.listes a:active {
+    color: yellow;
+    font-size: 22px;
+}
+
+#myButton {
+    width: 80px;
+    height: 20px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: auto;
+    padding: 15px 20px;
+    margin-top: 50px;
+}
+
+#myButton:hover a {
+    color: black;
+}
+
+#myButton a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#myButton a:hover {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}

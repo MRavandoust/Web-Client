@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Les Pseudos-classes</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+</head>
+
+<body>
+    <section>
+        <ul>
+            <li><a href="#">Btn Liste 1</a></li>
+            <li><a href="#">Btn Liste 2</a></li>
+            <li><a href="#">Btn Liste 3</a></li>
+            <li onclick="document.getElementById('parag').style.display='Block'"><a href="#">Btn Liste 4 </a></li>
+        </ul>
+        <p id="parag" onclick="document.getElementById('parag1').style.display='Block'">Vous avez cliqué sur le bouton !!! <img src="images/emoji.png"></p>
+        <p id="parag1" onclick="document.getElementById('parag1').style.display='none'">Vous avez cliqué sur moi !!! <img src="images/emoji.png"></p>
+        <br><br>
+        <div class="listes">
+            <a href="#">MENU 1</a>
+            <a href="#">MENU 2</a>
+            <a href="#">MENU 3</a>
+        </div>
+
+
+        <div id="myButton" onclick="document.getElementById('myButton').style.backgroundColor='green'">
+            <a href="#">Cliquer ici</a>
+        </div>
+    </section>
+</body>
+
+</html>
