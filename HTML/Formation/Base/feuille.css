@@ -13,6 +13,27 @@ header {
     height: 130px;
 }
 
+.fix {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    background-color: blue;
+    width: 50px;
+    height: 20px;
+    color: white;
+    padding: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: 0.4s;
+    box-shadow: 5px 1px 30px 4px rgb(177, 199, 209);
+}
+
+.fix:hover {
+    width: 60px;
+    padding-left: 35px;
+    transition: 0.4s;
+}
+
 #content {
     height: 100%;
     width: 80%;

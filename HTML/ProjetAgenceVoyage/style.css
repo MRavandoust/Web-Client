@@ -70,8 +70,8 @@ section {
 
 .banner {
     position: absolute;
-    padding-left: 36%;
-    margin-top: 100px;
+    left: 36%;
+    top: 100px;
     color: rgb(53, 59, 61);
 }
 
@@ -124,7 +124,6 @@ section {
 
 .box img {
     width: 33%;
-    position: initial;
     margin-left: 33%;
     margin-bottom: 26px;
 }

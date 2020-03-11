@@ -1,0 +1,24 @@
+header {
+    height: 100px;
+    background-color: blue;
+}
+
+section {
+    height: 350px;
+    width: 35%;
+    background-color: burlywood;
+    float: left;
+}
+
+article {
+    height: 350px;
+    width: 65%;
+    background-color: chocolate;
+    float: left;
+}
+
+footer {
+    background-color: brown;
+    height: 150px;
+    clear: both;
+}
