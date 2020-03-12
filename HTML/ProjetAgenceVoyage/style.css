@@ -102,6 +102,10 @@ section {
     margin: auto;
 }
 
+.bannerbtn:hover {
+    background-color: cornflowerblue;
+}
+
 #box {
     margin-left: 25%;
     margin-right: auto;
@@ -216,6 +220,10 @@ table img {
     clear: both;
 }
 
+.button:hover {
+    background-color: cornflowerblue;
+}
+
 img {
     float: left;
     width: 100%;
@@ -231,16 +239,25 @@ nav {
 nav ul li {
     float: left;
     list-style: none;
+    width: fit-content;
+    padding: 0px 10px;
 }
 
 nav ul li a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    padding: 5px 20px 5px 20px;
+    padding: 5px;
     color: rgb(11, 100, 33);
     text-decoration: none;
     transition: 0.5s;
     font-weight: 700;
+    width: fit-content;
+}
+
+nav ul li a:hover {
+    border-right: 1px double rgb(136, 184, 149);
+    border-left: 1px solid rgb(136, 184, 149);
+    box-shadow: 0px 0px 15px rgb(128, 128, 201);
 }
 
 form {
@@ -258,6 +275,10 @@ form button {
     border-radius: 3px;
     color: white;
     font-weight: bold;
+}
+
+form button:hover {
+    background-color: rgb(223, 165, 7);
 }
 
 form input {
