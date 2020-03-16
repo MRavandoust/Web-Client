@@ -16,9 +16,9 @@ header {
 .fix {
     position: fixed;
     left: 0;
-    top: 50%;
+    top: 40%;
     background-color: blue;
-    width: 50px;
+    width: 60px;
     height: 20px;
     color: white;
     padding: 10px;
