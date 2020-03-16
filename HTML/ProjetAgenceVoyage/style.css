@@ -40,6 +40,7 @@ header h1 {
     font-size: 50px;
     margin-left: 26%;
     margin-top: 33px;
+    color: #444;
 }
 
 header img {
@@ -50,40 +51,36 @@ header img {
 
 h2 {
     text-align: center;
+    color: #444;
 }
 
 section {
     height: 100%;
     width: 100%;
-    margin: auto;
     float: left;
 }
 
 #banner {
-    position: relative;
-}
-
-#banner img {
-    margin-bottom: 60px;
+    background: url(images/main.jpg) center;
     height: 580px;
+    overflow: auto;
+    margin-bottom: 80px;
 }
 
 .banner {
-    position: absolute;
-    left: 36%;
-    top: 100px;
-    color: rgb(53, 59, 61);
+    color: #444;
+    text-align: center;
+    padding-top: 0;
 }
 
 .banner h2 {
     font-size: 50px;
-    margin-bottom: -50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
-}
-
-.banner h1 {
-    font-size: 50px;
+    padding-top: 105px;
+    margin-bottom: 60px;
+    overflow: auto;
+    color: #444;
 }
 
 .banner a {
@@ -96,7 +93,7 @@ section {
     background-color: rgb(209, 157, 14);
     font-size: 15px;
     width: 48px;
-    border-radius: 4px;
+    border-radius: 3px;
     padding: 12px 27px;
     color: white;
     margin: auto;
@@ -182,7 +179,7 @@ table img {
 .article1 {
     width: 41%;
     height: 215px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.95);
     text-align: center;
     padding-right: 10px;
     float: left;
@@ -206,6 +203,7 @@ table img {
 
 .article1 h2 {
     font-size: 18px;
+    color: #444;
 }
 
 .button {
@@ -260,8 +258,12 @@ nav ul li a:hover {
     box-shadow: 0px 0px 15px rgb(128, 128, 201);
 }
 
+.clear {
+    text-align: center;
+}
+
 form {
-    margin-left: 38%;
+    margin: auto;
     margin-bottom: 50px;
     font-weight: bold;
 }
@@ -275,6 +277,10 @@ form button {
     border-radius: 3px;
     color: white;
     font-weight: bold;
+}
+
+form label {
+    color: #444;
 }
 
 form button:hover {
@@ -306,7 +312,7 @@ footer h1 {
 }
 
 footer p {
-    color: white;
+    color: rgb(145, 139, 139);
     text-align: center;
     font-size: 12px;
 }
