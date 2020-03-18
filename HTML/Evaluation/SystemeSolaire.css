@@ -1,0 +1,31 @@
+table {
+    background-color: #a1a8ae;
+    text-align: right;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 940px;
+}
+
+table tr:first-child,
+tr:nth-child(2) {
+    height: 45px;
+}
+
+table caption {
+    font-size: 25px;
+}
+
+table td {
+    background-color: #f8f9fb;
+    padding: 6px 2px;
+}
+
+table tr td:first-child {
+    text-align: left;
+}
+
+table th {
+    background-color: #ebecee;
+    padding: 6px 15px;
+    text-align: center;
+}

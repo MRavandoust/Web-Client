@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="connexion.css">
+</head>
+
+<body>
+    <section>
+        <form method="post" action="login.php">
+            <div id="signIn">Sign in</div>
+            <label for="user">User Name</label></br>
+            <input placeholder="johndoe" type="text" id="user" name="user" style="width: 78%;"></br>
+            </br>
+            <label for="password">Password</label></br>
+            <input placeholder="*******" type="password" id="password" name="password" style="width: 78%;"></br>
+            </br>
+
+
+            <p>Group :</p>
+            <div id="group">
+                <div class="group">
+                    <input type="radio" name="Group" value="abc" id="abc">
+                    <label for="abc">ABC Dev</label>
+                </div>
+                <div class="group">
+                    <input type="radio" name="Group" value="dwwm" id="abc">
+                    <label for="dwwm">DWWM</label>
+                </div>
+                <div class="group">
+                    <input type="radio" name="Group" value="cda" id="abc" checked="checked">
+                    <label for="cda">CDA</label>
+                </div>
+            </div>
+            </br>
+            </br>
+
+            <button type="submit">SIGN IN</button>
+            <br>
+
+            <a href="#">Forgot Password?</a>
+            <br><br>
+            <div id="signUp">
+                <p>Nez User</p>
+                <button type="button">SIGN UP</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

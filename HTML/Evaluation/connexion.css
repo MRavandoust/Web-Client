@@ -1,0 +1,74 @@
+form {
+    margin: 50px auto;
+    width: 20%;
+    padding: 20px;
+    font-size: 15px;
+    border: 2px solid #a1a8ae;
+    overflow: auto;
+}
+
+form input {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    padding-left: 5px;
+}
+
+form p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+form button {
+    transition: 0.3s;
+    width: 80PX;
+    height: 30PX;
+    background-color: #9fcef7;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form button:hover {
+    box-shadow: 3px 3px 10px 2px rgb(104, 123, 131);
+    transition: 0.3s;
+}
+
+#signIn {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 96%;
+    height: 25px;
+    border-bottom: 2px solid #8fb6d8;
+    margin-bottom: 10px;
+}
+
+#group {
+    border: 2px solid #a1a8ae;
+    width: 45%;
+    padding: 5px;
+    clear: both;
+    margin-top: -10px;
+}
+
+.group {
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+    width: 120px;
+}
+
+a {
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#signUp {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 96%;
+    border-top: 2px solid #8fb6d8;
+    margin-bottom: 10px;
+    float: left;
+}

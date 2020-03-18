@@ -1,0 +1,145 @@
+<systemeSolaire>
+    <planete name="Mercure">
+        <caracteristiques>
+            <diametre en="km">4878</diametre>
+            <circonference en="km">15324,689</circonference>
+            <distance_moyenne_avec_LeSoleil en="millions_de_km">57,8</distance_moyenne_avec_LeSoleil>
+            <distance_moyenne_avec_LaTerre en="millions_de_km">91,8</distance_moyenne_avec_LaTerre>
+            <satellites>0</satellites>
+            <temperature_moyenne en="°C">167</temperature_moyenne>
+            <masse en="1024kg">0,33</masse>
+            <periode_de_revolution en="an">0,24</periode_de_revolution>
+            <rotation_sur_son_axe dure="jour">58j 15 h 38min</rotation_sur_son_axe>
+            <vitesse_autour_du_Soleil en="km/s">47,78</vitesse_autour_du_Soleil>
+            <attraction_gravitationnelle en="N/kg">3,78</attraction_gravitationnelle>
+            <masse_volumique en="kg/dm³">5,42</masse_volumique>
+            <volume en="1011 km3">0,6077486604</volume>
+        </caracteristiques>
+    </planete>
+
+        <planete name="Venus">
+        <caracteristiques>
+            <diametre en="km">12104</diametre>
+            <circonference en="km">38019,554</circonference>
+            <distance_moyenne_avec_LeSoleil en="millions_de_km">108,2</distance_moyenne_avec_LeSoleil>
+            <distance_moyenne_avec_LaTerre en="millions_de_km">41,4</distance_moyenne_avec_LaTerre>
+            <satellites>0</satellites>
+            <temperature_moyenne en="°C">465</temperature_moyenne>
+            <masse en="1024kg">4,87</masse>
+            <periode_de_revolution en="an">0,615</periode_de_revolution>
+            <rotation_sur_son_axe dure="jour">243j</rotation_sur_son_axe>
+            <vitesse_autour_du_Soleil en="km/s">35,02</vitesse_autour_du_Soleil>
+            <attraction_gravitationnelle en="N/kg">8,6</attraction_gravitationnelle>
+            <masse_volumique en="kg/dm³">5,24</masse_volumique>
+            <volume en="1011 km3">9,280472071</volume>
+        </caracteristiques>
+    </planete>
+
+        <planete name="Terre">
+        <caracteristiques>
+            <diametre en="km">12756</diametre>
+            <circonference en="km">40024</circonference>
+            <distance_moyenne_avec_LeSoleil en="millions_de_km">149,6</distance_moyenne_avec_LeSoleil>
+            <distance_moyenne_avec_LaTerre en="millions_de_km"></distance_moyenne_avec_LaTerre>
+            <satellites>1</satellites>
+            <temperature_moyenne en="°C">15</temperature_moyenne>
+            <masse en="1024kg">5,9736</masse>
+            <periode_de_revolution en="an">1</periode_de_revolution>
+            <rotation_sur_son_axe dure="jour">23 h 56min 4s</rotation_sur_son_axe>
+            <vitesse_autour_du_Soleil en="km/s">29,78</vitesse_autour_du_Soleil>
+            <attraction_gravitationnelle en="N/kg">9,81</attraction_gravitationnelle>
+            <masse_volumique en="kg/dm³">5,45</masse_volumique>
+            <volume en="1011 km3">10,8321</volume>
+        </caracteristiques>
+    </planete>
+
+        <planete name="Mars">
+        <caracteristiques>
+            <diametre en="km">6794</diametre>
+            <circonference en="km">21318,84</circonference>
+            <distance_moyenne_avec_LeSoleil en="millions_de_km">227,9</distance_moyenne_avec_LeSoleil>
+            <distance_moyenne_avec_LaTerre en="millions_de_km">77,9</distance_moyenne_avec_LaTerre>
+            <satellites>2</satellites>
+            <temperature_moyenne en="°C">-65</temperature_moyenne>
+            <masse en="1024kg">0,642</masse>
+            <periode_de_revolution en="an">1,88</periode_de_revolution>
+            <rotation_sur_son_axe dure="jour">24 h 37min 23s</rotation_sur_son_axe>
+            <vitesse_autour_du_Soleil en="km/s">24,11</vitesse_autour_du_Soleil>
+            <attraction_gravitationnelle en="N/kg">3,72</attraction_gravitationnelle>
+            <masse_volumique en="kg/dm³">3,93</masse_volumique>
+            <volume en="1011 km3">1,636214316</volume>
+        </caracteristiques>
+    </planete>
+
+        <planete name="Jupiter">
+        <caracteristiques>
+            <diametre en="km">142984</diametre>
+            <circonference en="km">449197,484</circonference>
+            <distance_moyenne_avec_LeSoleil en="millions_de_km">778,6</distance_moyenne_avec_LeSoleil>
+            <distance_moyenne_avec_LaTerre en="millions_de_km">628,7</distance_moyenne_avec_LaTerre>
+            <satellites>63</satellites>
+            <temperature_moyenne en="°C">-54</temperature_moyenne>
+            <masse en="1024kg">1899</masse>
+            <periode_de_revolution en="an">11,86</periode_de_revolution>
+            <rotation_sur_son_axe dure="jour">9 h 50min</rotation_sur_son_axe>
+            <vitesse_autour_du_Soleil en="km/s">13,07</vitesse_autour_du_Soleil>
+            <attraction_gravitationnelle en="N/kg">24,892</attraction_gravitationnelle>
+            <masse_volumique en="kg/dm³">1,32</masse_volumique>
+            <volume en="1011 km3">15305,97323</volume>
+        </caracteristiques>
+    </planete>
+
+        <planete name="Saturne">
+        <caracteristiques>
+            <diametre en="km">120536</diametre>
+            <circonference en="km">378675,012</circonference>
+            <distance_moyenne_avec_LeSoleil en="millions_de_km">1433,5</distance_moyenne_avec_LeSoleil>
+            <distance_moyenne_avec_LaTerre en="millions_de_km">1280,4</distance_moyenne_avec_LaTerre>
+            <satellites>47</satellites>
+            <temperature_moyenne en="°C">-150</temperature_moyenne>
+            <masse en="1024kg">568</masse>
+            <periode_de_revolution en="an">29,46</periode_de_revolution>
+            <rotation_sur_son_axe dure="jour">11.5 h</rotation_sur_son_axe>
+            <vitesse_autour_du_Soleil en="km/s">9,66</vitesse_autour_du_Soleil>
+            <attraction_gravitationnelle en="N/kg">10,584</attraction_gravitationnelle>
+            <masse_volumique en="kg/dm³">0,68</masse_volumique>
+            <volume en="1011 km3">9169,569533</volume>
+        </caracteristiques>
+    </planete>
+
+        <planete name="Uranus">
+        <caracteristiques>
+            <diametre en="km">51118</diametre>
+            <circonference en="km">160591,933</circonference>
+            <distance_moyenne_avec_LeSoleil en="millions_de_km">2872,5</distance_moyenne_avec_LeSoleil>
+            <distance_moyenne_avec_LaTerre en="millions_de_km">2725,4</distance_moyenne_avec_LaTerre>
+            <satellites>27</satellites>
+            <temperature_moyenne en="°C">-210</temperature_moyenne>
+            <masse en="1024kg">86,8</masse>
+            <periode_de_revolution en="an">84</periode_de_revolution>
+            <rotation_sur_son_axe dure="jour">17 h 24min</rotation_sur_son_axe>
+            <vitesse_autour_du_Soleil en="km/s">6,81</vitesse_autour_du_Soleil>
+            <attraction_gravitationnelle en="N/kg">8,624</attraction_gravitationnelle>
+            <masse_volumique en="kg/dm³">1,27</masse_volumique>
+            <volume en="1011 km3">699,3912317</volume>
+        </caracteristiques>
+    </planete>
+
+        <planete name="Neptune">
+        <caracteristiques>
+            <diametre en="km">49528</diametre>
+            <circonference en="km">155596,8</circonference>
+            <distance_moyenne_avec_LeSoleil en="millions_de_km">4495,1</distance_moyenne_avec_LeSoleil>
+            <distance_moyenne_avec_LaTerre en="millions_de_km">4346,9</distance_moyenne_avec_LaTerre>
+            <satellites>13</satellites>
+            <temperature_moyenne en="°C">-220</temperature_moyenne>
+            <masse en="1024kg">102</masse>
+            <periode_de_revolution en="an">164,79</periode_de_revolution>
+            <rotation_sur_son_axe dure="jour">16 h 3min</rotation_sur_son_axe>
+            <vitesse_autour_du_Soleil en="km/s">5,43</vitesse_autour_du_Soleil>
+            <attraction_gravitationnelle en="N/kg">11,27</attraction_gravitationnelle>
+            <masse_volumique en="kg/dm³">1,63</masse_volumique>
+            <volume en="1011 km3">636,1374964</volume>
+        </caracteristiques>
+    </planete>
+</systemeSolaire>
