@@ -13,7 +13,7 @@ header {
 header img {
     width: 150px;
     height: 140px;
-    position: fixed;
+    position: absolute;
     right: 15%;
 }
 
