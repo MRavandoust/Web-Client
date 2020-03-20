@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FICHE3</title>
+</head>
+
+<body>
+
+    <h2 id="code" style="display: none;"> Le code a bien été exécuté ! </h2>
+    <h2 id="code1" style="display: none;"> Vous n'avez pas accépté d'exécuter le code ! </h2>
+
+    <script>
+        if (confirm('Voulez-vous exécuter le code Javascript de cette page ?')) {
+            document.getElementById("code").style.display = 'block';
+        } else {
+            document.getElementById("code1").style.display = 'block';
+        }
+    </script>
+
+
+</body>
+
+</html>

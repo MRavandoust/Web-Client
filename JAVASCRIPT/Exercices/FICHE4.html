@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FICHE4</title>
+</head>
+
+<body>
+
+    <h2 id="text"></h2>
+
+    <script>
+        var drawer = parseInt(prompt('Choisissez le tiroir à ouvrir (1 à 4) :')); //on précise bien le type de la valeur, ici un nombre avec la fonction parseInt()
+        switch (drawer) {
+            case 1: // on pose chaque cas l'un après l'autre ; on met des apostrophes si l'on vérifie des chaînes de caractères au lieu de nombres
+                document.getElementById("text").innerHTML = "Contient divers outils pour dessiner : du papier, des crayons, etc.";
+                break; // on arrête la fonction pour passer à un autre cas
+            case 2:
+                document.getElementById("text").innerHTML = "Contient du matériel informatique : des câbles, des composants, etc.";
+                break;
+            case 3:
+                document.getElementById("text").innerHTML = "Ah ? Ce tiroir est fermé à clé ! Dommage !";
+                break;
+            case 4:
+                document.getElementById("text").innerHTML = "Contient des vêtements : des chemises, des pantalons, etc.";
+                break;
+            default: // on pose une autre possibilité, pour gérer une erreur de l'utilisateur
+                document.getElementById("text").innerHTML = "Info du jour : le meuble ne contient que 4 tiroirs et, jusqu'à preuve du contraire, les tiroirs négatifs n'existent pas.";
+        }
+    </script>
+
+</body>
+
+</html>
