@@ -21,37 +21,31 @@
     </div>
 
     <div id="divTP1">
-        Le <strong>sfsffsf</strong>, abrégé par le sigle <strong></strong>, est un
+        Le <strong></strong>, abrégé par le sigle <strong></strong>, est un
         <a></a> à but non-lucratif chargé de promouvoir la compatibilité des technologies du
-        <a></a>.
-    </div> -->
+        <a></a>
+    </div>
 
     <script>
-        var str1 = document.createElement('strong');
-        str1.createTextNode("World Wide Web Consortium");
-        document.getElementById('divTP1').firstChild('strong')
-        var str2 = document.document.createElement('strong');
-        str2.createTextNode("W3C");
+        var str = document.getElementById('divTP1').firstElementChild;
+        str.innerHTML = "World Wide Web Consortium";
 
+        var str1 = str.nextElementSibling;
+        str1.innerHTML = "W3C";
 
-
-        var newLink = document.createElement('a');
-        newLink.id = 'sdz_link';
+        var newLink = str1.nextElementSibling;
         newLink.href = 'http://fr.wikipedia.org/wiki/Organisme_de_normalisation/';
         newLink.title = 'Organisme de normalisation';
-        newLink.setAttribute('tabindex', '10');
-        document.getElementById('divTP1').appendChild(newLink);
         var newLinkText = document.createTextNode("organisme de standardisation");
         newLink.appendChild(newLinkText);
 
-        var newLink2 = document.createElement('a');
+        var newLink2 = newLink.nextElementSibling;
         newLink2.id = 'sdz_link';
         newLink2.href = 'http://fr.wikipedia.org/wiki/World_Wide_Web/';
         newLink2.title = 'World Wide Web';
-        newLink2.setAttribute('tabindex', '10');
         document.getElementById('divTP1').appendChild(newLink2);
         var newLink2Text = document.createTextNode("World Wide Web");
-        newLink.appendChild(newLink2Text);
+        newLink2.appendChild(newLink2Text);
     </script>
 </body>
 
