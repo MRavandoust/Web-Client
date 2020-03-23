@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tableauPush</title>
+</head>
+
+<body>
+    <script>
+        var prenoms = [],
+            prenom;
+        while (prenom = prompt('Entrez un prénom :')) {
+            prenoms.push(prenom);
+        }
+        if (prenoms.length > 0) {
+            alert(prenoms.join(' '));
+        } else {
+            alert('Il n\'y a aucun prénom en mémoire');
+        }
+    </script>
+</body>
+
+</html>

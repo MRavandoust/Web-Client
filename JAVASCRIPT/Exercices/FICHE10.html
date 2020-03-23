@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FICHE10</title>
+</head>
+
+<body>
+    <blockquote>
+        <p id="myP">Ceci est un paragraphe !</p>
+    </blockquote>
+    <script>
+        var paragraph = document.getElementById('myP');
+        alert(paragraph.nodeType + '\n\n' +
+            paragraph.nodeName.toLowerCase());
+    </script>
+
+
+
+    <div>
+        <p id="myP">Un peu de texte, <a>un lien</a> et <strong>une portion en
+    emphase</strong></p>
+    </div>
+    <script>
+        var paragraph = document.getElementById('myP');
+        var first = paragraph.firstChild;
+        var last = paragraph.lastChild;
+        alert(first.nodeName.toLowerCase());
+        alert(last.nodeName.toLowerCase());
+    </script>
+</body>
+
+</html>

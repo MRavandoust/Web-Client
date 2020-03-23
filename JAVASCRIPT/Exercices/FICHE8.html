@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FICHE8</title>
+</head>
+
+<body>
+    <script>
+        var family = {
+            self: 'Rafael',
+            sister: 'Mathilde',
+            brother: 'Ahmed',
+            cousin_1: 'Jérôme',
+            cousin_2: 'Guillaume'
+        };
+        var id = 'sister';
+        alert(family[id]);
+        alert(family.brother);
+        alert(family['self']);
+        family['uncle'] = 'Pauline';
+        family.aunt = 'Karim';
+        alert(family.uncle);
+        alert(family.aunt);
+
+        for (var id in family) {
+            alert(family[id]);
+        }
+    </script>
+</body>
+
+</html>

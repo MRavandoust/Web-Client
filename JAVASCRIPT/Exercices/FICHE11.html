@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FICH11</title>
+</head>
+
+<body>
+    <!--     <div id="divTP1">
+        Le <strong>World Wide Web Consortium</strong>, abrégé par le sigle <strong>W3C</strong>, est un
+        <a href="" title=""></a> à but non-lucratif chargé de promouvoir la compatibilité des technologies du <a href="http://fr.wikipedia.org/wiki/World_Wide_Web" title="World
+        Wide Web">World Wide Web</a>.
+    </div> -->
+
+    <div>
+        <p id="myP">Un peu de texte
+            <a></a>
+        </p>
+    </div>
+
+    <div id="divTP1">
+        Le <strong>sfsffsf</strong>, abrégé par le sigle <strong></strong>, est un
+        <a></a> à but non-lucratif chargé de promouvoir la compatibilité des technologies du
+        <a></a>.
+    </div> -->
+
+    <script>
+        var str1 = document.createElement('strong');
+        str1.createTextNode("World Wide Web Consortium");
+        document.getElementById('divTP1').firstChild('strong')
+        var str2 = document.document.createElement('strong');
+        str2.createTextNode("W3C");
+
+
+
+        var newLink = document.createElement('a');
+        newLink.id = 'sdz_link';
+        newLink.href = 'http://fr.wikipedia.org/wiki/Organisme_de_normalisation/';
+        newLink.title = 'Organisme de normalisation';
+        newLink.setAttribute('tabindex', '10');
+        document.getElementById('divTP1').appendChild(newLink);
+        var newLinkText = document.createTextNode("organisme de standardisation");
+        newLink.appendChild(newLinkText);
+
+        var newLink2 = document.createElement('a');
+        newLink2.id = 'sdz_link';
+        newLink2.href = 'http://fr.wikipedia.org/wiki/World_Wide_Web/';
+        newLink2.title = 'World Wide Web';
+        newLink2.setAttribute('tabindex', '10');
+        document.getElementById('divTP1').appendChild(newLink2);
+        var newLink2Text = document.createTextNode("World Wide Web");
+        newLink.appendChild(newLink2Text);
+    </script>
+</body>
+
+</html>

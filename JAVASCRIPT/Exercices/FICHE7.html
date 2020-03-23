@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FICHE7</title>
+</head>
+
+<body>
+    <h2 id="tab"></h2>
+    <script>
+        var tab = [];
+        var question = true;
+        while (question) {
+            var element = prompt("Ajoutez votre element :")
+            tab.push(' ' + element, );
+            question = confirm("Voulez-vous ajouter un element au tableau ?");
+        };
+
+
+        /* function afficheTabl() {
+            for (var i = 0; i < tab.length; i++) {
+                alert(tab[i] + " ");
+            }
+        } */
+        document.getElementById("tab").innerHTML = alert(tab);
+    </script>
+
+
+    <script>
+        var text = "This is my first sentence ";
+        var tab1 = text.split(' ');
+        alert(tab1.length);
+        for (var i in tab1) {
+            alert(tab1[i]);
+        }
+
+        var text1 = tab1.join('-');
+        alert(text1);
+    </script>
+
+
+</body>
+
+</html>
