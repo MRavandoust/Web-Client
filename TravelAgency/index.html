@@ -75,7 +75,7 @@
 
     <section id="contact">
         <div class="wrapper">
-            <h3>Contactez-nous</h3>
+            <h3 id="contact-us">Contactez-nous</h3>
             <p>Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement financier important pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos attentes pour vous aider dans
                 la préparation de votre séjour, circuit ou voyage sur mesure.</p>
 
@@ -138,15 +138,14 @@
 
 
             check['email'] = function() {
-                var login = document.getElementById('email'),
-                    email = login.value,
-                    tooltipStyle = getTooltip(login).style;
-                if (login.value.length >= 4 && (/^[a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,6}$/.test(email))) {
-                    login.className = 'correct';
+                var email = document.getElementById('email'),
+                    tooltipStyle = getTooltip(email).style;
+                if (/^[a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,6}$/.test(email.value)) {
+                    email.className = 'correct';
                     tooltipStyle.display = 'none';
                     return true;
                 } else {
-                    login.className = 'incorrect';
+                    email.className = 'incorrect';
                     tooltipStyle.display = 'inline-block';
                     return false;
                 }
@@ -159,8 +158,7 @@
                     inputs = document.getElementsByTagName('input'),
                     inputsLength = inputs.length;
                 for (var i = 0; i < inputsLength; i++) {
-                    if (inputs[i].type == 'text' || inputs[i].type ==
-                        'password') {
+                    if (inputs[i].type == 'text') {
                         inputs[i].onkeyup = function() {
                             check[this.id](this.id); // « this » représente l'input actuellement modifié
                         };
@@ -173,6 +171,11 @@
                     }
                     if (result) {
                         alert('Le formulaire est bien rempli.' + '\n' + 'Nous vous contacterons dans les prochains jours');
+                        document.getElementById("contact-us").innerHTML = "Déjà contacté";
+                        document.getElementById("contact-us").className = "form-done";
+                        document.getElementById("name").disabled = true;
+                        document.getElementById("email").disabled = true;
+                        document.getElementById("submit").disabled = true;
                     }
                     return false;
                 };
